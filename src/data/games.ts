@@ -44,7 +44,7 @@ export const games: Game[] = [
   {
     id: "far-cry-6",
     title: "Far Cry 6",
-    image: "/assets/far cry 6.jpg",
+    image: "/assets/FarCry.jpg",
     description:
       "Fight for freedom in a tropical open-world FPS revolution.",
     category: "FPS",

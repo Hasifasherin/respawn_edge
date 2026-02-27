@@ -26,7 +26,7 @@ export default function Hero() {
   }, [emblaApi])
 
   return (
-    <section className="w-full flex justify-center py-12 md:py-20 px-4 sm:px-6">
+    <section className="w-full flex justify-center mt-0 pt-0 px-4 sm:px-6">
 
       {/* Box Container */}
       <div
