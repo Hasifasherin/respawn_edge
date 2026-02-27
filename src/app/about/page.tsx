@@ -79,11 +79,11 @@ export default function AboutPage() {
           </p>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-left max-w-3xl mx-auto mb-10 text-gray-300 text-sm sm:text-base">
-            <div> Premium Branding</div>
-            <div> Gaming PCs & Console Setup Support</div>
-            <div> Launch Marketing Campaign Support</div>
-            <div> Social Media Growth Strategy</div>
-            <div> Continuous Technical Assistance</div>
+            <div>• Premium Branding</div>
+            <div>• Gaming PCs & Console Setup Support</div>
+            <div>• Launch Marketing Campaign Support</div>
+            <div>• Social Media Growth Strategy</div>
+            <div>• Continuous Technical Assistance</div>
           </div>
 
           <div className="border-t border-gray-700 pt-6">
@@ -96,7 +96,7 @@ export default function AboutPage() {
             </p>
 
             <p className="text-gray-400 text-sm sm:text-base">
-               Call / WhatsApp: <span className="text-white font-medium">+91 8848357600</span>
+               Call / WhatsApp: <span className="text-white font-medium">+91 6282 909 128</span>
             </p>
             <p className="text-gray-400 text-sm sm:text-base">
                Email: <span className="text-white font-medium">respawnedge6@gmail.com</span>

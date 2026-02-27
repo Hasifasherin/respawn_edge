@@ -21,49 +21,55 @@ export default function PricingPage() {
 
   const modes = [
     {
-      name: "Single Mode",
+      name: "Single Mode (PS5)",
       accent: "#f97316",
       glow: "hover:shadow-orange-500/40",
       plans: [
         ["Express Slot (15 Min)", "₹50"],
-        ["30 Min Session", "₹90"],
-        ["1 Hr Session", "₹160"],
-        ["30 Min Extension", "₹80"],
-        ["1 Hr Extension", "₹130"],
+        ["30 Min Session", "₹80"],
+        ["45 Min Session", "₹120"],
+        ["1 Hr Session", "₹150"],
+        ["30 Min Extension", "₹60"],
+        ["1 Hr Extension", "₹120"],
       ],
     },
     {
-      name: "Dual Mode",
+      name: "Dual Mode (PS5)",
       accent: "#2563eb",
       glow: "hover:shadow-blue-500/40",
       plans: [
-        ["Express Slot (15 Min)", "₹80 (₹40 per person)"],
-        ["30 Min Session", "₹140 (₹70 per person)"],
-        ["1 Hr Session", "₹250 (₹125 per person)"],
-        ["30 Min Extension", "₹120 (₹60 per person)"],
-        ["1 Hr Extension", "₹190 (₹95 per person)"],
+        ["Express Slot (15 Min)", "7 (₹35 per person)"],
+        ["30 Min Session", "₹130 (₹65 per person)"],
+        ["45 Min Session", "₹200 (₹100 per person)"],
+        ["1 Hr Session", "₹260 (₹130 per person)"],
+        ["30 Min Extension", "₹100 (₹50 per person)"],
+        ["1 Hr Extension", "₹180 (₹90 per person)"],
       ],
     },
     {
-      name: "Big Mode",
+      name: "4 Player Big Mode (PS5)",
       accent: "#16a34a",
       glow: "hover:shadow-green-500/40",
       plans: [
-        ["Express Slot (15 Min)", "₹120"],
-        ["30 Min Session", "₹220"],
-        ["1 Hr Session", "₹380"],
+        ["Express Slot (15 Min)", "₹100"],
+        ["30 Min Session", "₹190"],
+        ["45 Min Session", "₹280"],
+        ["1 Hr Session", "₹400"],
         ["30 Min Extension", "₹200"],
         ["1 Hr Extension", "₹340"],
       ],
     },
     {
-      name: "SimDrive",
+      name: "SimDrive (PS4)",
       accent: "#eab308",
       glow: "hover:shadow-yellow-500/40",
       plans: [
-        ["One Session (15 Min)", "₹90"],
-        ["Extension (15 Min)", "₹80"],
-        ["Pro Session (1 Hr)", "₹290"],
+        ["One Session (15 Min)", "₹50"],
+        ["30 Min Session", "₹100"],
+        ["45 Min Session", "₹150"],
+        ["1 Hr Session", "₹200"],
+        ["Extension (15 Min)", "₹40"],
+       
       ],
     },
   ];
@@ -141,8 +147,7 @@ export default function PricingPage() {
 
         {/* NOTES */}
         <div className="mt-12 md:mt-16 bg-red-600/20 border border-red-500 rounded-xl p-4 md:p-6 text-xs sm:text-sm hover:bg-red-600/30 transition">
-          <p>• Seat sharing is not allowed in a single session.</p>
-          <p>• ₹80 per extra person will be charged for shared SimDrive session.</p>
+          <p>• Finish your favourite story games with our customised plans – contact us today</p>
         </div>
 
       </div>

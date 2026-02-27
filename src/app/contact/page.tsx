@@ -51,7 +51,7 @@ export default function ContactPage() {
   };
 
   const handleSend = () => {
-    const phoneNumber = "919876543210";
+    const phoneNumber = "6282909128";
 
     const text = `
 New Contact Message 🎮

@@ -35,7 +35,7 @@ export default function RootLayout({
 
         {/* Floating WhatsApp */}
         <a
-          href="https://wa.me/919876543210?text=Hello%20I%20want%20more%20details"
+          href="https://wa.me/6282909128?text=Hello%20I%20want%20more%20details"
           target="_blank"
           rel="noopener noreferrer"
           className="fixed bottom-6 right-6 w-14 h-14 rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition-all duration-300 z-[999]"
