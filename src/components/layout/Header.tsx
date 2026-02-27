@@ -20,7 +20,7 @@ export default function Header() {
   ];
 
   return (
-    <header className="w-full bg-transparent border-b border-blue-400/30 relative z-50">
+    <header className="w-full bg-[rgba(46,3,86,0.3)] border-b border-blue-400/30 relative z-50">
       <div className="container-custom flex justify-between items-center py-4 px-4 sm:px-6 lg:px-10">
 
         {/* Logo */}
