@@ -4,6 +4,8 @@ import * as React from "react"
 import useEmblaCarousel from "embla-carousel-react"
 import Autoplay from "embla-carousel-autoplay"
 import { cn } from "../../lib/utils"
+import Link from "next/link"
+
 
 export default function Hero() {
   const images = [
@@ -73,7 +75,7 @@ export default function Hero() {
           <p className="text-gray-300 text-sm sm:text-lg md:text-xl max-w-xl mb-6 sm:mb-8">
             Premium gaming experience with ultimate comfort and performance.
           </p>
-
+          <Link href="/games" passHref>
           <button className="
             bg-gradient-to-r from-blue-500 to-purple-600
             px-6 sm:px-8 md:px-10
@@ -90,6 +92,7 @@ export default function Hero() {
           ">
             Explore Now
           </button>
+        </Link>
         </div>
 
         {/* Dots Navigation */}
