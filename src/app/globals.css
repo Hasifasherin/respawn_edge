@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+@import "tailwindcss";
+
+body {
+ font-family: 'Space Grotesk';
+}
+
+:root {
+  --cyan: #00d9ff;
+  --magenta: #ff006e;
+  --purple: #7b2cbf;
+  --space-bg: #0a0e1a;
+}
+
+/* Keep animated-mesh */
+@keyframes mesh-shift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animated-mesh {
+  background: linear-gradient(-45deg, #0a0e1a, #0d0a1e, #0a1220, #0e0a18);
+  background-size: 400% 400%;
+  animation: mesh-shift 15s ease infinite;
+}
+
+.grid-pattern {
+  background-image: 
+    linear-gradient(rgba(0, 217, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 217, 255, 0.03) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+@keyframes scan-line {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(100vh); }
+}
+
+/* font */
+.font-orbitron { font-family: 'Orbitron', sans-serif; }
+.font-space { font-family: 'Space Grotesk', sans-serif; }
+.font-mono-jet { font-family: 'JetBrains Mono', monospace; }
